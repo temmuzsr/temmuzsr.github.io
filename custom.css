@@ -5,5 +5,11 @@ body {
   .darkb {
     color: #205d93;
   }
+  .cv_color{
+    background-color:#31b7d1;
 
+  }
+  .text-pinky{
+    color: #de52b8;
+  }
 }

@@ -6,10 +6,11 @@ body {
     color: #205d93;
   }
   .cv_color{
-    background-color:#31b7d1;
-
+    background-color:#010101;
   }
   .text-pinky{
     color: #de52b8;
+    padding-bottom: 5px;
   }
+
 }

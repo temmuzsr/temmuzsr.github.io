@@ -12,5 +12,15 @@ body {
     color: #de52b8;
     padding-bottom: 5px;
   }
+  .accordion .side-menu a{
+    display:block;
+    height:120px; 
+  }
+  #headingTwo img{
+    margin-left: 15px;
+    height: 120px;
+    width: 81px;  
+  }
 
+  
 }

@@ -1,4 +1,20 @@
 body {
+  .page-header, small, .side-menu, .row{
+    color:white;
+    text-shadow: 1px 1px black;
+  }
+  a.side-menu-item{
+    border: 2px solid palegreen;
+    margin:2px;
+  }
+  #content-container{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top:-20px;
+  }
+  #content-area2{
+    margin-top:10px;
+  }
+  }
   a.insta {
     color: #a386ad;
   }
@@ -7,6 +23,9 @@ body {
   }
   .cv_color{
     background-color:#010101;
+    min-width: 1500px;
+    padding-left: 150px;
+    margin-left: -150px;
   }
   .text-pinky{
     color: #de52b8;
@@ -14,13 +33,13 @@ body {
   }
   .accordion .side-menu a{
     display:block;
-    height:120px; 
+    height:100px; 
   }
   #headingTwo img{
     margin-left: 15px;
-    height: 120px;
-    width: 81px;  
   }
-
+  #content-area4 .card{
+    margin-top:10px;
+  }
   
 }

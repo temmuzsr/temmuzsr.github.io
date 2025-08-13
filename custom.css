@@ -1,7 +1,21 @@
 body {
+  p.clp{
+    color: ghostwhite;
+    font-family: math;
+    font-size: large;
+  }
+  .aclogo{
+    width:200px;
+    display:inline;
+    paddng:20px;
+  }
   .page-header, small, .side-menu, .row{
     color:white;
     text-shadow: 1px 1px black;
+  }
+  .text-smalldanger{
+    color: #f59a9b;
+    font-size:large;
   }
   a.side-menu-item{
     border: 2px solid palegreen;
@@ -11,9 +25,11 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     margin-top:-20px;
   }
+  #content-area1{
+    font-family: math;
+  }
   #content-area2{
     margin-top:10px;
-  }
   }
   a.insta {
     color: #a386ad;

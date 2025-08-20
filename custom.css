@@ -9,7 +9,7 @@
 .side-menu-item .clp {
   color: ghostwhite;
   font-family: math;
-  font-size: large;
+  font-size: larger;
 }
 .aclogo {
   padding-bottom:20px;
@@ -27,12 +27,11 @@
 .content-container {
   background-color: rgba(0, 0, 0, 0.4);
   margin-top:-20px;
+  padding-top:15px;
+  padding-bottom:10px;
 }
 .content-area1 {
   font-family: math;
-}
-.content-area2 {
-  margin-top:10px;
 }
 .insta {
   color: #a386ad;
@@ -49,12 +48,43 @@
 .doctor-of{
   margin-left: 15px;
 }
-#content-area4 .card{
-  margin-top:10px;
-}
 .cv_color{
   background-color:#010101;
   margin-left: -150px;
-  min-width: 1500px;
+/*  min-width: 1500px; */
   padding-left: 150px;
+  padding-bottom: 50px;
+  padding-top:20px;
+
+}
+.side-menu-desktop {
+  display: none;
+}
+.side-menu-mobile{
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.side-menu-mobile .btn{
+  margin:10px;
+}
+.default-area{
+  display: block;
+  min-height:60px;
+}
+@media (min-width: 800px) {
+  .cv_color {
+    padding-bottom: 0;
+    min-width: 1500px;  
+  }
+  .side-menu-desktop {
+    display: block;
+  }
+  .side-menu-mobile{
+    display: none;
+  }
+  .default-area{
+    display: none;
+  }
+
+
 }

@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1400px;
+    }
+}
+.header-styles small, h4{
+  color:white;
+  text-shadow: 0.4px 0.2px darkslategrey;
+}
+.bla{
+  background-color: black;
+}
+.quote{
+  width:724px;
+}
+
+.ps-excerpt {
+  font-family: serif;
+}
+
+.entrance{
+  padding:20px 0px;
+}

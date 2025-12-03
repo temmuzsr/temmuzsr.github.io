@@ -20,15 +20,14 @@
   font-size:large;
 }
 .side-menu-item {
-  border: 2px solid palegreen;
-  margin:2px;
+/*  border: 2px solid palegreen;
+  margin:2px;*/
   text-shadow: 1px 1px black;
+  margin-left:-16px;
 }
 .content-container {
   background-color: rgba(0, 0, 0, 0.4);
   margin-top:-20px;
-  padding-top:15px;
-  padding-bottom:10px;
 }
 .content-area1 {
   font-family: math;
@@ -43,14 +42,16 @@
 }
 .side-menu-item{
   display:block;
-  height:100px; 
+  height:60px; 
 }
 .doctor-of{
   margin-left: 15px;
 }
 .cv_color{
   background-color:#010101;
-  margin-left: -150px;
+  margin-left: -250px;
+  margin-right: -250px;
+
 /*  min-width: 1500px; */
   padding-left: 150px;
   padding-bottom: 50px;
@@ -58,6 +59,10 @@
 
 }
 .side-menu-desktop {
+  display: none;
+  padding-bottom: 30px;
+}
+.intro-vid-desk{
   display: none;
 }
 .side-menu-mobile{
@@ -85,6 +90,9 @@
   .default-area{
     display: none;
   }
+.intro-vid-desk{
+  display: block;
+}
 
 
 }
